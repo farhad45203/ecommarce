@@ -7,6 +7,21 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      {
+        id: 2,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 2,
@@ -16,6 +31,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 3,
@@ -25,6 +49,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 4,
@@ -34,6 +67,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 5,
@@ -43,6 +85,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 6,
@@ -52,6 +103,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 7,
@@ -61,6 +121,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 8,
@@ -70,6 +139,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 9,
@@ -79,6 +157,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 10,
@@ -88,6 +175,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 11,
@@ -97,6 +193,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   {
     id: 12,
@@ -106,6 +211,15 @@ const products = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
     imageAlt: "Hand stitched, orange leather long wallet.",
+    images: [
+      {
+        id: 1,
+        name: "Angled view",
+        src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
+        alt: "Angled front view with bag zipped and handles upright.",
+      },
+      // More images...
+    ],
   },
   // More products...
 ];

@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import Header from "@/src/components/Common/Header";
 import Footer from "@/src/components/Common/Footer";
-import SliderCarousel from "@/src/components/Home/Hero";
+import HeroSliders from "@/src/components/Home/HeroSliders";
 import Products from "@/src/components/Home/Products";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main>
         <Header />
-        <SliderCarousel />
+        <HeroSliders />
         <Products />
         <Footer />
       </main>

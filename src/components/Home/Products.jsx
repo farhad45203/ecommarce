@@ -282,16 +282,21 @@ export default function Products() {
                 />
               </div>
               <h3 className="mt-4 text-sm text-gray-700">
-                <a
-                  onClick={() => {
-                    handleProduct(index);
-                  }}
-                >
+                <Link href={product.href}>
                   <span className="absolute inset-0" />
                   {product.name}
-                </a>
+                </Link>
               </h3>
               <p className="mt-1 text-sm text-gray-500">{product.type}</p>
+
+              <a
+                className="absolute z-10 right-0 bottom-1 px-4 py-1 text-white cursor-pointer bg-slate-400 rounded hover:bg-slate-600"
+                onClick={() => {
+                  handleProduct(index);
+                }}
+              >
+                Gellary
+              </a>
             </div>
           ))}
         </div>

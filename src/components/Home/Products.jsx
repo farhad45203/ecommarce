@@ -271,7 +271,7 @@ export default function Products() {
           />
         </div>
 
-        <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-10 lg:gap-x-8">
+        <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 lg:grid-cols-4 md:gap-y-10 lg:gap-x-8">
           {currentProducts.map((product, index) => (
             <div key={product.id} className="group relative">
               <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
@@ -281,22 +281,35 @@ export default function Products() {
                   className="h-full w-full object-cover object-center"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">
-                <Link href={product.href}>
-                  <span className="absolute inset-0" />
-                  {product.name}
-                </Link>
-              </h3>
-              <p className="mt-1 text-sm text-gray-500">{product.type}</p>
+              <div className="flex lg:flex-row flex-col lg:items-center items-start">
+                <div className="flex-1">
+                  <h3 className="mt-4 text-sm text-gray-700">
+                    <Link href={product.href}>
+                      <span className="absolute inset-0" />
+                      {product.name} {product.id}
+                    </Link>
+                  </h3>
+                  <p className="mt-1 text-sm text-gray-500">{product.type}</p>
+                </div>
 
-              <a
+                <a
+                  className="z-10 lg:mt-0 mt-3 px-4 py-1 text-white cursor-pointer bg-slate-400 rounded hover:bg-slate-600"
+                  onClick={() => {
+                    handleProduct(index);
+                  }}
+                >
+                  Gallery
+                </a>
+              </div>
+
+              {/* <a
                 className="absolute z-10 right-0 bottom-1 px-4 py-1 text-white cursor-pointer bg-slate-400 rounded hover:bg-slate-600"
                 onClick={() => {
                   handleProduct(index);
                 }}
               >
                 Gallery
-              </a>
+              </a> */}
             </div>
           ))}
         </div>
@@ -322,16 +335,6 @@ export default function Products() {
             </li>
           ))}
         </ul>
-
-        <div className="mt-8 text-sm md:hidden">
-          <a
-            href="#"
-            className="font-medium text-indigo-600 hover:text-indigo-500"
-          >
-            Shop the collection
-            <span aria-hidden="true"> &rarr;</span>
-          </a>
-        </div>
       </div>
     </div>
   );

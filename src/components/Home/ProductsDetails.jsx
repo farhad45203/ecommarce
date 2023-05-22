@@ -41,7 +41,9 @@ export default function ProductsDetails({ product }) {
                   >
                     {({ selected }) => (
                       <>
-                        <span className="sr-only">{product.name}</span>
+                        <span className="sr-only">
+                          {product.name} {product.id}
+                        </span>
                         <span className="absolute inset-0 overflow-hidden rounded-md">
                           <img
                             src={image.src}
@@ -79,7 +81,7 @@ export default function ProductsDetails({ product }) {
           {/* Product info */}
           <div className="mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-0">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
-              {product.name}
+              {product.name} {product.id}
             </h1>
 
             <div className="mt-3">

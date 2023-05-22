@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProductsNav({ selectedNav, setSelectedNav }) {
   return (
-    <div className="flex gap-10">
+    <div className="flex lg:gap-10 gap-5 lg:mt-0 mt-5">
       <a
         className={
           selectedNav === "recommended"

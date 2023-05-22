@@ -295,7 +295,7 @@ export default function Products() {
                   handleProduct(index);
                 }}
               >
-                Gellary
+                Gallery
               </a>
             </div>
           ))}
